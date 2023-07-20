@@ -1,7 +1,14 @@
 # Helpers.ps1 file
 
-function come_from_external_file {
 
-  return "This code is from an external file!!!!"
+function helloFromTheOtherFile {
+
+  param (
+      [string]$name = 'John Doe'
+  )
+  
+  return @"Hello $name, this code origin is delivered by an external file!!!!"
   
 }
+
+# ...
