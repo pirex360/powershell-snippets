@@ -7,7 +7,9 @@ File: `update-pwsh.ps1`
 
 ## Auto Update Powershell Script
 File: `copy_source_destination.ps1`
-- For Microsoft Windows, copy files from source folder and all sub-directories to a destination path. The extension could be personalized, ex: `"*.pdf" or "*.*"`
+- For Microsoft Windows, copy files from the source folder and all sub-directories to a destination path. The extension could be personalized, ex: `"*.pdf" or "*.*"`
+- Also it checks if in destination are files that do not belong to the source folder, deleting the ones that are absent.
+- Source files are untouched
 
 ## Concept of require(like in PHP) to separate code concerns into different files
 Folder: `\require`
