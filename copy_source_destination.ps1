@@ -1,5 +1,5 @@
-$source="C:\"
-$destination="D:\"
+$source="C:\folder1"
+$destination="D:\folderx"
 $extensions="*.jpeg","*.png","*.jpg"
 
 # Create an array of file names in the source folder
